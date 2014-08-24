@@ -24,7 +24,7 @@ GEMSPEC = Gem::Specification.new do |s|
     s.add_runtime_dependency 'csv-diff', '>= 0.2.1'
     s.add_runtime_dependency 'arg-parser', '>= 0.2'
     s.add_runtime_dependency 'color-console', '>= 0.1'
-    s.add_runtime_dependency 'axlsx', '~> 1.3'
+    s.add_runtime_dependency 'axlsx', '~> 2.0'
     s.bindir = 'bin'
     s.executables << 'csvdiff'
 end
